@@ -128,7 +128,7 @@ export default {
       Elements: {
         Elements_Cancel_Button: "Avbryt",
         Elements_Copy_Text: "Kopiert til utklippstavlen.",
-        Elements_Error: "Det oppsto en feil i programmet under gjengivelsen av denne visningen. Prøv å oppdatere siden."
+        Elements_Error: "Det oppsto en feil under lasting av nettsiden. Prøv å oppdatere siden."
       },
       Server: {
         Server_Page_Title: "Console",

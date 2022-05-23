@@ -48,7 +48,7 @@ export default {
         Two_Factor_Active_Desc_1: "Two-factor authentication has been enabled on your account. Should you lose access to your authenticator device, you'll need to use one of the codes displayed below in order to access your account.",
         Two_Factor_Active_Desc_2: "These codes will not be displayed again. ",
         Two_Factor_Active_Desc_3: "Please take note of them now by storing them in a secure repository such as a password manager.",
-        Two_Factor_Active_Button: Lukk",
+        Two_Factor_Active_Button: "Lukk",
         Two_Factor_Disabled_Desc: "You do not currently have two-factor authentication enabled on your account. Click the button below to begin configuring it.",
         Two_Factor_Disable_Desc_1: "You must provide your current password in order to continue.",
         Two_Factor_Disable_Desc_2: "In order to disable two-factor authentication you will need to provide your account password.",

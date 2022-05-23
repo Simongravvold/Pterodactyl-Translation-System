@@ -6,13 +6,13 @@ export default {
         Password: "Passord",
         Login_Button: "Logg inn",
         Forgot_Password: "Glemt passord?",
-        Username_or_Email_Desc: "A username or email must be provided.",
-        Account_Password_Desc: "Please enter your account password.",
-        Account_Incorrect: "No account matching those credentials could be found.",
-        Many_Attempts: "There were too many login attempts. Please try again later.",
-        Recaptcha_Error: "Failed to validate reCAPTCHA data.",
+        Username_or_Email_Desc: "Et brukernavn eller e-post må oppgis.",
+        Account_Password_Desc: "Vennligst skriv inn passordet ditt.",
+        Account_Incorrect: "Fant ingen brukerkonto som samsvarer med oppgitte opplysninger.",
+        Many_Attempts: "Du har brukt for mange påloggingsforsøk. Prøv igjen senere.",
+        Recaptcha_Error: "Kunne ikke validere reCAPTCHA-data.",
         Request_Failed: "Request failed with status code 404",
-        CSRF_Token: "CSRF token mismatch."
+        CSRF_Token: "CSRF-tokenet stemmer ikke."
       },
       Reset_Password: {
         Password_Reset: "Be om tilbakestilling av passord",
@@ -48,7 +48,7 @@ export default {
         Two_Factor_Active_Desc_1: "Two-factor authentication has been enabled on your account. Should you lose access to your authenticator device, you'll need to use one of the codes displayed below in order to access your account.",
         Two_Factor_Active_Desc_2: "These codes will not be displayed again. ",
         Two_Factor_Active_Desc_3: "Please take note of them now by storing them in a secure repository such as a password manager.",
-        Two_Factor_Active_Button: "Close",
+        Two_Factor_Active_Button: Lukk",
         Two_Factor_Disabled_Desc: "You do not currently have two-factor authentication enabled on your account. Click the button below to begin configuring it.",
         Two_Factor_Disable_Desc_1: "You must provide your current password in order to continue.",
         Two_Factor_Disable_Desc_2: "In order to disable two-factor authentication you will need to provide your account password.",
@@ -98,7 +98,7 @@ export default {
         Api_Setup_Title: "Your API Key",
         Api_Setup_Desc: "The API key you have requested is shown below. Please store this in a safe location, it will not be shown again.",
         Api_Min_Characters: "Description must be at least 4 characters",
-        Api_Setup_Button: "Close",
+        Api_Setup_Button: "Lukk",
         Api_Ip_Incorrect_1: "IP address 1 must be a valid IP address.",
         Api_Ip_Incorrect_2: "IP address 2 must be a valid IP address.",
         Api_Ip_Incorrect_3: "IP address 3 must be a valid IP address."
@@ -109,21 +109,21 @@ export default {
         Search_Desc_2: "Enter a server name, uuid, or allocation to begin searching."
       },
       Dashboard: {
-        Dash_Page_Title: "Dashboard",
-        Dash_Show_Server_1: "Showing others' servers",
-        Dash_Show_Server_2: "Showing your servers",
-        Dash_Show_Server_3: "There are no other servers to display.",
-        Dash_Show_Server_4: "There are no servers associated with your account."
+        Dash_Page_Title: "Kontrollpanel",
+        Dash_Show_Server_1: "Viser andres servere",
+        Dash_Show_Server_2: "Viser dine servere",
+        Dash_Show_Server_3: "Det er ingen andre servere å vise.",
+        Dash_Show_Server_4: "Det er ingen servere som er knyttet til kontoen din."
       },
       Server_Row: {
-        Server_Unlimited: "Unlimited",
-        Server_Suspended: "Suspended",
-        Server_Connect_Error: "Connection Error",
-        Server_Transferring: "Transferring",
+        Server_Unlimited: "Ubegrenset",
+        Server_Suspended: "Suspendert",
+        Server_Connect_Error: "Tilkoblingsfeil",
+        Server_Transferring: "Overfører",
         Server_Installing: "Installing",
-        Server_Restoring_Backup: "Restoring Backup",
-        Server_Unavailable: "Unavailable",
-        Server_Of: "of"
+        Server_Restoring_Backup: "Gjenoppretter sikkerhetskopi",
+        Server_Unavailable: "Utilgjengelig",
+        Server_Of: "av"
       },
       Elements: {
         Elements_Cancel_Button: "Avbryt",

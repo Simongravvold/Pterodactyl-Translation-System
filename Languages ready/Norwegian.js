@@ -1,11 +1,11 @@
 export default {
     translation: {
       Login: {
-        Title: "Login to continue",
-        Username_or_Email: "Username or Email",
-        Password: "Password",
-        Login_Button: "Login",
-        Forgot_Password: "Forgot password?",
+        Title: "Logg inn for å fortsette",
+        Username_or_Email: "Brukernavn eller e-postadresse",
+        Password: "Passord",
+        Login_Button: "Logg inn",
+        Forgot_Password: "Glemt passord?",
         Username_or_Email_Desc: "A username or email must be provided.",
         Account_Password_Desc: "Please enter your account password.",
         Account_Incorrect: "No account matching those credentials could be found.",
@@ -15,20 +15,20 @@ export default {
         CSRF_Token: "CSRF token mismatch."
       },
       Reset_Password: {
-        Password_Reset: "Request Password Reset",
-        Email: "Email",
-        New_Password_Required: "A new password is required.",
-        Password_Characters_Min: "Your new password should be at least 8 characters in length.",
-        Password_Not_Match: "Your new password does not match.",
-        Account_Email: "Enter your account email address to receive instructions on resetting your password.",
-        Valid_Email: "A valid email address must be provided to continue.",
-        Send_Email: "Send Email",
-        Return_to_Login: "Return to login",
-        Reset_Password: "Reset Password",
-        New_Password: "New Password",
-        New_Password_Desc: "Passwords must be at least 8 characters in length.",
-        Confirm_New_Password: "Confirm New Password",
-        Send_Email_Link: "We have e-mailed your password reset link!"
+        Password_Reset: "Be om tilbakestilling av passord",
+        Email: "E-post",
+        New_Password_Required: "Et nytt passord kreves.",
+        Password_Characters_Min: "Det nye passordet ditt bør være på minst 8 tegn.",
+        Password_Not_Match: "Passordene du skrev inn er forskjellige. Prøv på nytt.",
+        Account_Email: "Skriv inn e-postadressen for kontoen din, for å motta instruksjoner om hvordan du tilbakestiller passordet ditt.",
+        Valid_Email: "En gyldig e-postadresse må oppgis for å fortsette.",
+        Send_Email: "Send E-post",
+        Return_to_Login: "Gå tilbake til pålogging",
+        Reset_Password: "Tilbakestill passord",
+        New_Password: "Nytt passord",
+        New_Password_Desc: "Passord må være på minst 8 tegn.",
+        Confirm_New_Password: "Bekreft nytt passord",
+        Send_Email_Link: "Vi har sendt lenken for tilbakestilling av passord på e-post!"
       },
       Two_Factor_Auth: {
         Device_Checkpoint: "Device Checkpoint",
@@ -126,9 +126,9 @@ export default {
         Server_Of: "of"
       },
       Elements: {
-        Elements_Cancel_Button: "Cancel",
-        Elements_Copy_Text: "Copied to clipboard.",
-        Elements_Error: "An error was encountered by the application while rendering this view. Try refreshing the page."
+        Elements_Cancel_Button: "Avbryt",
+        Elements_Copy_Text: "Kopiert til utklippstavlen.",
+        Elements_Error: "Det oppsto en feil i programmet under gjengivelsen av denne visningen. Prøv å oppdatere siden."
       },
       Server: {
         Server_Page_Title: "Console",
